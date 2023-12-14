@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+    background-image: url('https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?cs=srgb&dl=pexels-pixabay-38238.jpg&fm=jpg'); /* Placeholder image URL */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
